@@ -9,6 +9,15 @@ import './index.css'
 
 export const ImageApp = () => {
 
+
+  const handleTermClicked = ( term:string ) => {
+    console.log({term});
+  }
+
+  const handleSearch = ( query:string ) => {
+    console.log({ query });
+  }
+
   return (    
     <>        
         <HeaderComponent 
@@ -17,11 +26,15 @@ export const ImageApp = () => {
 
         
         <SearchBar 
-            placeHolder="Ingresa el nombre de tu imagen"/>
+            placeHolder="Ingresa el nombre de tu imagen"
+            onQuery = { handleSearch }
+            />
 
         
          <PreviousSearches 
-            searches={['protoman','megaman','shadowman','skullman']}/>   
+            searches={['protoman','megaman','shadowman','skullman']}
+            onLabelClicked = { handleTermClicked }
+            />
 
         
         <ImageList 
