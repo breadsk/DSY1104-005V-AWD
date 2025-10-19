@@ -15,7 +15,7 @@ export const ImageApp = () => {
   }
 
   const handleSearch = ( query:string ) => {
-    console.log({ query });
+    console.log( query );
   }
 
   return (    

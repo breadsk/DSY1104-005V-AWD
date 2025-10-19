@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client'
 import { ImageApp } from './ImageApp'
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+  //<StrictMode>
     <ImageApp />
-  </StrictMode>,
+  //</StrictMode>,
 )

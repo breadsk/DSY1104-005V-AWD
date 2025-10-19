@@ -287,7 +287,7 @@ export const robots:robotsProps[] = [
         "id":27,
         "name": "Drill Man",
         "weapon": "Drill Bomb",
-        "avatar": "http://vignette2.wikia.nocookie.net/megaman/images/8/88/Drillmugshot.png",        
+        "avatar": "https://static.wikia.nocookie.net/esmegaman/images/c/cb/MM4-DrillMan.jpg",        
         "sprite1": "http://vignette2.wikia.nocookie.net/megaman/images/2/25/Drillsprite.png",
         "weakness": "Dive Missile",
         "stageImg": ""
@@ -297,7 +297,7 @@ export const robots:robotsProps[] = [
         "id":28,
         "name": "Pharaoh Man",
         "weapon": "Pharaoh Shot",
-        "avatar": "http://vignette4.wikia.nocookie.net/megaman/images/c/c0/Pharaohmugshot.png",        
+        "avatar": "https://static.wikia.nocookie.net/esmegaman/images/d/d4/MM4-PharaohMan.jpg",        
         "sprite1": "http://vignette3.wikia.nocookie.net/megaman/images/b/bb/Pharaohsprite.png",
         "weakness": "Flash Stopper",
         "stageImg": ""
@@ -307,7 +307,7 @@ export const robots:robotsProps[] = [
         "id":29,
         "name": "Ring Man",
         "weapon": "Ring Boomerang",
-        "avatar": "http://vignette4.wikia.nocookie.net/megaman/images/b/b3/Ringmugshot.png",        
+        "avatar": "https://static.wikia.nocookie.net/esmegaman/images/6/6c/MM4-RingMan.jpg",        
         "sprite1": "http://vignette2.wikia.nocookie.net/megaman/images/b/b3/MM10WA4.png",
         "weakness": "Pharaoh Shot",
         "stageImg": ""
@@ -317,7 +317,7 @@ export const robots:robotsProps[] = [
         "id":30,
         "name": "Dust Man",
         "weapon": "Dust Crusher",
-        "avatar": "http://vignette2.wikia.nocookie.net/megaman/images/c/c3/Dustmugshot.png",        
+        "avatar": "https://static.wikia.nocookie.net/esmegaman/images/e/e9/MM4-DustMan.jpg",        
         "sprite1": "http://vignette1.wikia.nocookie.net/megaman/images/4/41/Dustsprite.png",
         "weakness": "Ring Boomerang",
         "stageImg": ""
@@ -327,7 +327,7 @@ export const robots:robotsProps[] = [
         "id":31,
         "name": "Dive Man",
         "weapon": "Dive Missile",
-        "avatar": "http://vignette4.wikia.nocookie.net/megaman/images/4/4f/Divemugshot.png",        
+        "avatar": "https://static.wikia.nocookie.net/esmegaman/images/3/3e/MM4-DiveMan.jpg",        
         "sprite1": "http://vignette2.wikia.nocookie.net/megaman/images/d/df/Divesprite.png",
         "weakness": "Skull Barrier",
         "stageImg": ""
@@ -337,7 +337,7 @@ export const robots:robotsProps[] = [
         "id":32,
         "name": "Skull Man",
         "weapon": "Skull Barrier",
-        "avatar": "http://vignette4.wikia.nocookie.net/megaman/images/c/c4/Skullmugshot.png",        
+        "avatar": "https://static.wikia.nocookie.net/esmegaman/images/e/eb/MM4-SkullMan.jpg",        
         "sprite1": "http://vignette3.wikia.nocookie.net/megaman/images/e/e8/Skullsprite.png",
         "weakness": "Dust Crusher",
         "stageImg": ""
@@ -347,7 +347,7 @@ export const robots:robotsProps[] = [
         "id":33,
         "name": "Gravity Man",
         "weapon": "Gravity Hold",
-        "avatar": "http://vignette3.wikia.nocookie.net/megaman/images/2/2e/Gravitymugshot.png",        
+        "avatar": "https://th.bing.com/th/id/R.5f76bae9e9407baf90b81b1a7b0e5fd2?rik=uObE%2bPFKv6lzKQ&riu=http%3a%2f%2fimages.wikia.com%2fmegaman%2fimages%2f1%2f17%2fMM5-GravityMan.jpg&ehk=%2fxUDtdSftBxHx8yq8FiCtu0U4PBTktgRSqZGV%2b3oo9M%3d&risl=&pid=ImgRaw&r=0",
         "sprite1": "http://vignette1.wikia.nocookie.net/megaman/images/9/9d/Gravitysprite.png",
         "weakness": "Star Crash",
         "stageImg": ""
@@ -357,7 +357,7 @@ export const robots:robotsProps[] = [
         "id":34,
         "name": "Wave Man",
         "weapon": "Water Wave",
-        "avatar": "http://vignette1.wikia.nocookie.net/megaman/images/4/46/Wavemugshot.png",        
+        "avatar": "https://th.bing.com/th/id/R.de67dcb54da81a71da072addeae3f9e6?rik=GdCQKCt%2fs5ZFqg&riu=http%3a%2f%2fimg2.wikia.nocookie.net%2f__cb20110413195201%2fmegaman%2fimages%2fthumb%2fc%2fc9%2fMM5-WaveMan.jpg%2f500px-MM5-WaveMan.jpg&ehk=XEnG4OcsME8CT2EHp5cyWseXIhRyga1ZqHSs0UWZzeU%3d&risl=&pid=ImgRaw&r=0",        
         "sprite1": "http://vignette2.wikia.nocookie.net/megaman/images/c/cc/Wavesprite.png",
         "weakness": "Charge Kick",
         "stageImg": ""
@@ -367,7 +367,7 @@ export const robots:robotsProps[] = [
         "id":35,
         "name": "Stone Man",
         "weapon": "Power Stone",
-        "avatar": "http://vignette1.wikia.nocookie.net/megaman/images/b/b2/Stonemugshot.png",        
+        "avatar": "https://static.wikia.nocookie.net/esmegaman/images/7/79/MM5-StoneMan.jpg",        
         "sprite1": "http://vignette2.wikia.nocookie.net/megaman/images/a/ab/Stonesprite.png",
         "weakness": "Napalm Bomb",
         "stageImg": ""
@@ -377,7 +377,7 @@ export const robots:robotsProps[] = [
         "id":36,
         "name": "Gyro Man",
         "weapon": "Gyro Attack",
-        "avatar": "http://vignette2.wikia.nocookie.net/megaman/images/f/fe/Gyromugshot.png",        
+        "avatar": "https://vignette2.wikia.nocookie.net/megaman/images/3/32/MM5-GyroMan.jpg/revision/latest?cb=20110413230520",        
         "sprite1": "http://vignette3.wikia.nocookie.net/megaman/images/c/c3/Gyrosprite.png",
         "weakness": "Gravity Hold",
         "stageImg": ""
@@ -387,7 +387,7 @@ export const robots:robotsProps[] = [
         "id":37,
         "name": "Star Man",
         "weapon": "Star Crash",
-        "avatar": "http://vignette1.wikia.nocookie.net/megaman/images/6/61/Starmugshot.png",        
+        "avatar": "https://tse4.mm.bing.net/th/id/OIP.RYydP17aksDLy-Ad67btYgAAAA?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",        
         "sprite1": "http://vignette2.wikia.nocookie.net/megaman/images/7/70/Starsprite.png",
         "weakness": "Water Wave",
         "stageImg": ""
@@ -397,7 +397,7 @@ export const robots:robotsProps[] = [
         "id":38,
         "name": "Charge Man",
         "weapon": "Charge Kick",
-        "avatar": "http://vignette1.wikia.nocookie.net/megaman/images/3/39/Chargemugshot.png",        
+        "avatar": "https://th.bing.com/th/id/R.6880969653e418aa693e08c27157d12c?rik=q%2fRIYQ%2bSu5ssGw&riu=http%3a%2f%2fvignette3.wikia.nocookie.net%2fmegaman%2fimages%2f7%2f75%2fMM5-ChargeMan.jpg%2frevision%2flatest%3fcb%3d20110425062042&ehk=vlzb%2bm1WiD1TtLZFfBXBE%2f7AMJoYHOJbF9QfsiJGHf4%3d&risl=&pid=ImgRaw&r=0",        
         "sprite1": "http://vignette4.wikia.nocookie.net/megaman/images/1/1a/Chargesprite.png",
         "weakness": "Power Stone",
         "stageImg": ""
@@ -407,7 +407,7 @@ export const robots:robotsProps[] = [
         "id":39,
         "name": "Napalm Man",
         "weapon": "Napalm Bomb",
-        "avatar": "http://vignette4.wikia.nocookie.net/megaman/images/f/fd/Napalmmugshot.png",        
+        "avatar": "https://tse3.mm.bing.net/th/id/OIP.ewT9xajv0V7zypgKqxqa6gHaF-?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",        
         "sprite1": "http://vignette2.wikia.nocookie.net/megaman/images/a/aa/MM10WA5.png",
         "weakness": "Crystal Eye",
         "stageImg": ""
@@ -417,7 +417,7 @@ export const robots:robotsProps[] = [
         "id":40,
         "name": "Crystal Man",
         "weapon": "Napalm Bomb",
-        "avatar": "http://vignette2.wikia.nocookie.net/megaman/images/b/b8/Crystalmugshot.png",        
+        "avatar": "https://tse4.mm.bing.net/th/id/OIP.4Ot2b-ceDrPDBtw6_fSAiAHaHd?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
         "sprite1": "http://vignette2.wikia.nocookie.net/megaman/images/c/ce/Crystalsprite.png",
         "weakness": "Gyro Attack",
         "stageImg": ""
@@ -431,6 +431,76 @@ export const robots:robotsProps[] = [
         "sprite1": "https://static.miraheze.org/ccbmwikiwiki/4/4f/BlizzardMan.png",
         "weakness": "Gyro Attack",
         "stageImg": ""
+    },
+    {
+        "series":6,
+        "id":42,
+        "name":"Flame Man",
+        "weapon": "Flame Blast",
+        "avatar":"https://tse4.mm.bing.net/th/id/OIP.2f50gi9oJXLBKIld5p1waAHaI5?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "sprite1":"https://i.ytimg.com/vi/XSByIYtxKI8/hqdefault.jpg",
+        "weakness":"Wind Storm",
+        "stageImg":""
+    },
+    {
+        "series":6,
+        "id":43,
+        "name":"Plant Man",
+        "weapon": "Plant Barrier",
+        "avatar":"https://th.bing.com/th/id/R.e59219b4da28d775202c1d42d4866298?rik=%2bspffjWEGuqBKQ&riu=http%3a%2f%2fvignette3.wikia.nocookie.net%2fmegaman%2fimages%2f4%2f42%2fMM6-PlantMan.jpg%2frevision%2flatest%3fcb%3d20110427032726&ehk=EVw0pqEsCMC8J1e6IbHfDwNJduqrm%2bPiBb92%2bl6BRCw%3d&risl=&pid=ImgRaw&r=0",
+        "sprite1":"https://static.wikitide.net/ccbmwikiwiki/c/c6/PlantMan.png",
+        "weakness":"Flame Blase",
+        "stageImg":""
+    },
+    {
+        "series":6,
+        "id":44,
+        "name":"Tomahawk Man",
+        "weapon": "Silver Tomahawk",
+        "avatar":"https://th.bing.com/th/id/R.b412df7913f7896621be0d139e910f2c?rik=ANNd8EKpzhQzQw&riu=http%3a%2f%2fgonintendo.com%2fsystem%2ffile_uploads%2fuploads%2f000%2f007%2f405%2foriginal%2f51f62e33a46fa6309198c7013dd055e0.png&ehk=7UN96yk1yMaFyUmKG4y5RfSK6Im68ixAaMAiEMnxfgE%3d&risl=&pid=ImgRaw&r=0",
+        "sprite1":"https://static.wikitide.net/ccbmwikiwiki/a/a3/TomahawkMan.png",
+        "weakness":"Plant Barrier",
+        "stageImg":""
+    },
+    {
+        "series":6,
+        "id":45,
+        "name":"Yamato Man",
+        "weapon": "Yamato Spear",
+        "avatar":"https://tse2.mm.bing.net/th/id/OIP.S9zYd0PbPA-xgYXimL7WlgHaFp?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "sprite1":"https://static.wikitide.net/ccbmwikiwiki/c/c1/YamatoMan.png",
+        "weakness":"Silver Tomahawk",
+        "stageImg":""
+    },
+    {
+        "series":6,
+        "id":46,
+        "name":"Knight Man",
+        "weapon": "Knight Crush",
+        "avatar":"https://vignette4.wikia.nocookie.net/megaman/images/7/73/MM6-KnightMan.jpg/revision/latest?cb=20110426075433",
+        "sprite1":"https://static.wikitide.net/ccbmwikiwiki/5/5b/KnightMan.png",
+        "weakness":"Yamato Spear",
+        "stageImg":""
+    },
+    {
+        "series":6,
+        "id":47,
+        "name":"Centaur Man",
+        "weapon": "Centaur Flash",
+        "avatar":"https://tse4.mm.bing.net/th/id/OIP.t4O9d-GF9ccK_9Tl5gGnlQHaIE?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "sprite1":"https://static.wikitide.net/ccbmwikiwiki/0/07/CentaurMan.png",
+        "weakness":"Knight Crush",
+        "stageImg":""
+    },
+    {
+        "series":6,
+        "id":48,
+        "name":"Wind Man",
+        "weapon": "Wind Storm",
+        "avatar":"https://static.wikia.nocookie.net/esmegaman/images/d/d2/MM6-WindMan.jpg",
+        "sprite1":"https://static.wikitide.net/ccbmwikiwiki/9/9d/WindMan.png",
+        "weakness":"Centaur Flash",
+        "stageImg":""
     }
 ];
 
