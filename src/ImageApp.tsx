@@ -1,21 +1,32 @@
+import { useState } from 'react'
 
 import {HeaderComponent ,SearchBar } from './sharedComponents/components'
-
 import { ImageList,PreviousSearches } from './imagesComponents/components'
 
+import { getImagesByQuery } from './actions/get-images-by-query.actions'
 import { robots } from './mock-data/robots.mocks'
 
 import './index.css'
 
 export const ImageApp = () => {
 
+  const [imagenPrevia , setImagenPrevia] = useState(['']);
+
 
   const handleTermClicked = ( term:string ) => {
     console.log({term});
   }
 
-  const handleSearch = ( query:string ) => {
-    console.log( query );
+  const handleSearch = async( query:string ) => {
+    query = query.trim().toLowerCase();
+
+    if(query.length === 0) return;
+
+    if(imagenPrevia.includes(query)) return;
+
+    setImagenPrevia([ query , ...imagenPrevia ].splice(0,7))
+    
+    await getImagesByQuery(query);
   }
 
   return (    
@@ -32,7 +43,7 @@ export const ImageApp = () => {
 
         
          <PreviousSearches 
-            searches={['protoman','megaman','shadowman','skullman']}
+            searches={ imagenPrevia }
             onLabelClicked = { handleTermClicked }
             />
 
