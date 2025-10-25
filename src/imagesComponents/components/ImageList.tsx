@@ -1,36 +1,20 @@
-import type { robotsProps } from '../../mock-data/robots.mocks'
-
-import { getServerData } from '../../helpers/promise'
-import { useEffect } from 'react'
+import type { robotsProps } from '../../interfaces/images.interfaces'
 
 
 interface Props{
     robots:robotsProps[]
 }
 
-//Para que tu componente renderice los datos 
-// obtenidos del servidor, necesitas 
-// almacenarlos en el estado del componente. 
-// Aquí te muestro cómo modificar tu 
-// componente:
 
 export const ImageList = ({robots}:Props) => {
 
-    useEffect(()=> {
-        const fetchData = async() => {
-            const result = await getServerData();
-            const { robots } = result.data;
-            console.log(robots);
-        }
-
-        fetchData()
-    },[])
+    const robotsArray = Array.isArray(robots) ? robots : [robots];
 
 
   return (
     <div className="gifs-container">
         {
-            robots.map( ( robot ) => {
+            robotsArray.map( ( robot ) => {
                 return (
                     <div key={ robot.id } className="gif-card">
                         <img src={ robot.avatar } alt={ robot.name } />

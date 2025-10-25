@@ -9,9 +9,15 @@ export interface robotsProps {
     stageImg:string;
 }
 
+export interface responseNameProps {
+    ok:boolean;
+    statusCode:number;
+    robot:robotsProps;
+}
+
 
 export interface responseProps {
-    ok:string;
+    ok:boolean;
     statusCode:number;
-    robot: robotsProps;
+    robots: robotsProps[];
 }
